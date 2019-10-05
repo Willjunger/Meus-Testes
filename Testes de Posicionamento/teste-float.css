@@ -1,0 +1,25 @@
+.elementoExemplo{
+  width: 200px;
+  height: 200px;
+
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.elementoExemplo_primeiro{
+  background-color: purple;
+  float: left;
+}
+
+.elementoExemplo_ultimo{
+  background-color: red;
+  float: right;
+}
+
+article{
+  background-color: blue;
+}
+p{
+  clear: both;
+}

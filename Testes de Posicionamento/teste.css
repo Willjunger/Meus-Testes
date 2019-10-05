@@ -1,0 +1,29 @@
+.exemplo{
+  color: white;
+  text-align: justify;
+
+
+}
+.exemplo::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.exemplo-item{
+  display:inline-block;
+  width: 20%;
+  height: 150px;
+
+}
+.exemplo-item_primeiro{
+  background-color: black;
+}
+.exemplo-item_segundo{
+  background-color: blue;
+
+}
+.exemplo-item_terceiro{
+  background-color: red;
+
+}

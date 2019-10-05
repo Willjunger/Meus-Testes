@@ -1,0 +1,23 @@
+.elementoExemplo{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+
+}
+.elementoExemplo_primeiro{
+  background-color: purple;
+  position:relative;
+  top: 200px;
+
+}
+
+.elementoExemplo_ultimo{
+  background-color: red;
+  position: relative;
+  z-index: 1;
+
+}

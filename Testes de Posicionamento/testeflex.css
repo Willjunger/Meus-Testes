@@ -1,0 +1,14 @@
+.flexContainer{
+  display: flex;
+
+}
+
+.flexItem .primeiraRow{
+  width: 30px;
+  height: 3px;
+}
+.flexItem .primeiraRow .red{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}

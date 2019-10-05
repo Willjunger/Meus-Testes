@@ -1,0 +1,190 @@
+body{
+  overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	display: flex;
+  color: white;
+	font-size: 16px;
+	flex-wrap: wrap;
+
+}
+
+.primeira-div {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	height: 100%;
+	min-width: 150px;
+  justify-content: center;
+  background-color: black;
+}
+
+.segunda-div {
+	
+	height: 100%;
+	background-color: blue;
+	min-width: 550px;
+	flex-grow: 3;
+	display: flex;
+	flex-direction: column;
+}
+
+.div-dentro1 {
+	width: 100%;
+	height: 50%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+}
+
+.data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+}
+.botao-input {
+	display: flex;
+}
+
+.div-dentro2 {
+	width: 100%;
+	height: 50%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+}
+
+.modalidade {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+}
+
+.modalidade-form {
+	width: 70%;
+}
+
+.modalidade-form input {
+	width: 99%;
+}
+
+.terceira-div {
+	flex-grow: 3;
+	height: 100%;
+	background-color: blue;
+	min-width: 450px;
+	display: flex;
+	flex-direction: column;
+}
+
+.div-dentro3 {
+	width: 100%;
+	height: 50%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+}
+.form-radio {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-radio label {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-radio input {
+	margin-right: 5px;
+}
+.div-dentro4 {
+	flex-grow: 1;
+	height: 50%;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+}
+
+.form-pesquisa {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-pesquisa input {
+	width: 100%;
+}
+
+.quarta-div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* width: 10%; */
+	flex-grow: 1;
+	height: 100%;
+  background-color: black;
+  min-width: 150px
+  
+}
+
+.div-botao {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  min-width: 150px;
+  
+}
+/* 
+@media(max-width: 1300px){
+  .container{
+    display: block;
+  }
+  .primeira-div{
+    width: 100%;
+    min-width: 500px;
+  }
+  .segunda-div{
+    width: 100%;
+  }
+  .terceira-div{
+    width: 100%;
+  }
+  .quarta-div{
+    width: 100%;
+    min-width: 500px;
+  }
+} */
+
+/* .teste{
+	max-width: 700px;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.div-1{
+	background-color: blue;
+	width: 200px
+}
+.div-2{
+	background-color: red;
+	width: 200px;
+}
+.div-3{
+	background-color: black;
+	width: 400px;
+} */

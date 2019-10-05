@@ -1,0 +1,208 @@
+html{
+    font-family: "Caviar Dreams", sans-serif;
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+
+}
+
+/*CABEÇALHO*/
+
+.cabecalhoPrincipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: fixed;
+  z-index: 1;
+
+  background-color: red;
+  color:white;
+  height: 10%;
+  margin:0;
+
+
+}
+
+.cabecalhoPrincipal-titulo{
+  font-size: 4em;
+  font-weight: bold;
+
+}
+
+.cabecalhoPrincipal-nav-link{
+  text-decoration: none;
+  color:white;
+  font-size: 2em;
+  margin: 0 0 0 10px;
+}
+
+.cabecalhoPrincipal-nav-link:hover{
+    /*background-color: red;*/
+    color:#3c3950;
+
+}
+
+
+
+/* FOTO E TITULO */
+
+
+.secao-foto .container{
+        height: 100vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #FF8C00;
+        color: white;
+
+}
+
+.minha-foto{
+
+    margin-bottom: 5%;
+    width: 100%;
+    border-radius: 50%;
+    border: solid 3px white;
+
+}
+
+.bloco-foto h1{
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: .2em;
+  font-weight: bold;
+
+}
+
+.subtitulo-principal{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: .2em;
+    font-weight: bold;
+}
+
+
+
+/*INICIO DA SAUDAÇÃO */
+
+
+.secao-inicio .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #FF6347;
+
+
+}
+
+.saudacao p{
+  position:  relative;
+  color: white;
+  font-size: 2em;
+
+
+}
+
+.saudacao1{
+  right: 20%;
+  top: 11%;
+}
+
+.saudacao2{
+  left: 20%;
+  bottom: 15%;
+}
+.saudacao-inicio{
+    color:#FFD700;
+    font-size: 3em;
+
+}
+.saudacao strong{
+    color: #FFD700;
+    font-size: 2em;
+}
+
+
+.saudacao em{
+    color: #FFD700 ;
+    font-size: 4em;
+    -webkit-transform: rotate(-5deg) skew(-10deg);
+            transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+.boxes{
+  font-family: "poppins" , "Arial";
+  background-color: #fafafa;
+  color: #3c3950;
+  font-size: 18px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 100%;
+}
+
+.foto-minha{
+    background-size: 100%;
+    min-height: 900px;
+    width: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+
+
+
+.textos{
+  color: white;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+
+}
+
+.titulo-sobre{
+    font-size: 500%;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 60px;
+    background-color: #FA8072;
+
+
+}
+
+.rodape-pagina{
+
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 2em;
+
+}
